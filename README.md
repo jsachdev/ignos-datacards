@@ -12,7 +12,7 @@ Experiment Datacards:
 - [NSTX-U 2015-2016 Data](Experiments/NSTX-U-2015-16-data-datacard.md)
 - [NSTX-U 2015-2016 Images and Videos](Experiments/NSTX-U-2015-16-image-video-datacard.md)
 - [DIII-D](Experiments/DIII-D-datacard.md)
-- [MAST-U](Experiments/MAST-U-datacard.md)
+- [MAST](Experiments/MAST-datacard.md)
 
 Simulation Datacards:
 - [Gkeyll: ASDEX SOL Turbulence](Simulations/Gkeyll-ASDEX-SOL-Turbulence-datacard.md)

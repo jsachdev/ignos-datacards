@@ -2,12 +2,12 @@
 language:
   - en
 datacard_version: 0.1.0
-datacard_name: Datacard for NSTX Experimental Data (1999-2011)
-title: National Spherical Torus Experiment (NSTX) Experimental Dataset
+datacard_name: Datacard for NSTX-U Experimental Data (2015-2016)
+title: National Spherical Torus Experiment Upgrade (NSTX-U) Experimental Dataset
 
 datacard_creation:
   created_by: ["Jai Sachdev"]
-  created_date: 2026-02-17
+  created_date: 2026-02-26
   creation_method: manual
 
 dataset_authors:
@@ -41,7 +41,7 @@ funding:
 
 facilities:
   - ror_id: https://ror.org/03vn1ts68
-    name: National Spherical Torus Experiment (NSTX)
+    name: National Spherical Torus Experiment Upgrade (NSTX-U)
 
 tags:
   project: genesis
@@ -55,13 +55,13 @@ keywords:
   - time-series
   - MDSplus
   - magnetic-confinement
-  - NSTX
+  - NSTX-U
 
 release_review:
   - review_description: reviewed_general
     review_institution_ror_id: https://ror.org/03vn1ts68
 
-dataset_release_date: 2026-02-17
+dataset_release_date: 2026-02-26
 
 task_category:
   - time-series
@@ -79,9 +79,9 @@ landing_page_url: https://nstx.pppl.gov
 dataset_doi: null
 publication_date: null
 
-# NSTX began plasma ops in 1999 and later became NSTX-U after the upgrade period.
-data_collection_start_date: 1999-02-12
-data_collection_end_date: 2011-04-30
+# NSTX-U began plasma ops in 2015 and ended in 2016 due to a failure.
+data_collection_start_date: 2015-01-30
+data_collection_end_date: 2016-08-10
 
 dataset_info:
   features:
@@ -131,36 +131,36 @@ access_conditions:
   - Data use and publication agreement 
   - Data license for any commercial use
 
-maintenance: This dataset is archived and maintained by Princeton Plasma Physics Laboratory. The NSTX device ceased operations in 2011 following its upgrade to NSTX-U. No new data will be added. Access and curation are subject to PPPL data management policies.
+maintenance: This dataset is archived and maintained by Princeton Plasma Physics Laboratory. The NSTX-U device started operations in 2015 and ceased operations in 2016 following a failure. Operations will recommence in 2026 but a new dataset will be created. Access and curation are subject to PPPL data management policies.
 
 ---
 
-# DRAFT Datacard for National Spherical Torus Experiment (NSTX) Experimental Dataset
+# DRAFT Datacard for National Spherical Torus Experiment Upgrade (NSTX-U) Experimental Dataset
 
 ## Dataset Description
 
-*Last Updated*: 2026-02-17
+*Last Updated*: 2026-02-26
 
 ### Developed by
-National Spherical Torus Experiment (NSTX) Research Team at Princeton Plasma Physics Laboratory (PPPL), with contributions from the broader NSTX research program.
+National Spherical Torus Experiment Upgrade (NSTX-U) Research Team at Princeton Plasma Physics Laboratory (PPPL), with contributions from the broader NSTX-U research program.
 
 Contact: Stan Kaye (kaye@pppl.gov)
 
 ### Contributed by
 
-NSTX research collaborators and diagnostic-specific teams across the operational lifetime of NSTX.
+NSTX-U research collaborators and diagnostic-specific teams across the operational lifetime of NSTX-U.
 
 ### Dataset Short Description
 
-This dataset contains experimental plasma discharge data from the National Spherical Torus Experiment (NSTX), a spherical tokamak operated at Princeton Plasma Physics Laboratory from 1999 to 2011. The dataset includes time-resolved measurements from magnetic, kinetic, and equilibrium diagnostics stored in MDSplus trees, covering approximately O(10k) plasma discharges.
+This dataset contains experimental plasma discharge data from the National Spherical Torus Experiment Upgrade (NSTX-u), a spherical tokamak operated at Princeton Plasma Physics Laboratory from 2015 to 2016. The dataset includes time-resolved measurements from magnetic, kinetic, and equilibrium diagnostics stored in MDSplus trees, covering approximately O(10k) plasma discharges.
 
 ### Timeframe of Data Collection
 
-Data was collected between February 1999 and April 2011 during active NSTX operations. The data correspond directly to plasma discharges performed on the NSTX device during that operational period.
+Data was collected between January 2015 and August 2016 during active NSTX-u operations. The data correspond directly to plasma discharges performed on the NSTX-U device during that operational period.
 
 ### Resources Used
 
-- **Facility:** National Spherical Torus Experiment (NSTX)
+- **Facility:** National Spherical Torus Experiment Upgrade (NSTX-U)
 - **Institution:** Princeton Plasma Physics Laboratory
 - **Funding:** U.S. Department of Energy Office of Science (Fusion Energy Sciences)
 - **Data systems and storage:** MDSplus data acquisition and archival system
@@ -168,7 +168,7 @@ Data was collected between February 1999 and April 2011 during active NSTX opera
 
 ## Sharing/Access Information
 
-Access to NSTX experimental data is subject to PPPL data access policies and DOE public access requirements. Access may require:
+Access to NSTX-U experimental data is subject to PPPL data access policies and DOE public access requirements. Access may require:
 - User registration including DOE Foreign National Access Program
 - Proposal submission 
 - User/Collaboration agreement 
@@ -178,8 +178,8 @@ Access to NSTX experimental data is subject to PPPL data access policies and DOE
 ### Recommended citation
 
 ```txt
-@misc{NSTX_Experimental_Data,
-  title        = "{National Spherical Torus Experiment (NSTX) Experimental Dataset (1999-2011)}",
+@misc{NSTXU_Experimental_Data,
+  title        = "{National Spherical Torus Experiment Upgrade (NSTX-U) Experimental Dataset (2015-16)}",
   author       = "{NSTX Research Team}",
   howpublished = "Princeton Plasma Physics Laboratory",
   year         = 2026,
@@ -203,7 +203,7 @@ Each shot is stored as a structured hierarchy within MDSplus.
 
 ### Data Acquisition
 
-Data were collected using calibrated diagnostic instruments installed on NSTX, including:
+Data were collected using calibrated diagnostic instruments installed on NSTX-U, including:
 - Magnetic probes
 - Flux loops
 - Thomson scattering
@@ -242,4 +242,4 @@ Missing data may appear as NaN or diagnostic-specific sentinel values.
 
 ## More information
 
-NSTX ceased operations in 2011 and was subsequently upgraded to NSTX-U. This dataset reflects the full operational lifetime of the original NSTX device.
+NSTX-U ceased operations in 2016 due to a failure. This dataset reflects the full operational lifetime of the original NSTX-U device from 2015-2016. A new dataset will be created when the NSTX-U operation is restarted in 2026.

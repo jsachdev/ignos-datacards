@@ -2,23 +2,23 @@
 language:
   - en
 datacard_version: 0.1.0
-datacard_name: Datacard for NSTX Image and Video Diagnostic Data (1999–2011)
-title: NSTX Image and Video Diagnostic Data (1999–2011)
+datacard_name: Datacard for NSTX-U Image and Video Diagnostic Data (2015–2016)
+title: NSTX-U Image and Video Diagnostic Data (2015–2016)
 
 datacard_creation:
   - created_by: ["Jai Sachdev"]
-    created_date: 2026-02-17
+    created_date: 2026-02-26
     creation_method: manual
 
 dataset_authors:
   - dataset_author_orcid: null
-    given_name: NSTX Research Team
+    given_name: NSTX-U Research Team
     family_name: Princeton Plasma Physics Laboratory
     affiliation: Princeton Plasma Physics Laboratory (PPPL)
 
 dataset_contributors:
   - contributor:
-      contributor_name: NSTX Research Team / Collaborators
+      contributor_name: NSTX-U Research Team / Collaborators
       contributor_ror_id: https://ror.org/03vn1ts68
       contributor_orcid: null
 
@@ -42,7 +42,7 @@ funding:
 
 facilities:
   - ror_id: https://ror.org/03vn1ts68
-    name: National Spherical Torus Experiment (NSTX)
+    name: National Spherical Torus Experiment Upgrade (NSTX-U)
 
 tags:
   project: genesis
@@ -62,7 +62,7 @@ release_review:
   - review_description: reviewed_restricted
     review_institution_ror_id: https://ror.org/03vn1ts68
 
-dataset_release_date: 2026-02-17
+dataset_release_date: 2026-02-26
 
 task_category:
   - computer-vision
@@ -81,14 +81,14 @@ landing_page_url: https://nstx.pppl.gov
 dataset_doi: null
 publication_date: null
 
-# NSTX began plasma ops in 1999 and later became NSTX-U after the upgrade period.
-data_collection_start_date: 1999-02-12
-data_collection_end_date: 2011-12-31
+# NSTX-U began operations in 2015 and ceased operations in 2016 due to a failure.
+data_collection_start_date: 2015-01-30
+data_collection_end_date: 2016-08-10
 
 dataset_info:
   features:
     - name: shot
-      description: NSTX discharge identifier associated with the image/video acquisition.
+      description: NSTX-U discharge identifier associated with the image/video acquisition.
       dtype: int32
     - name: time
       description: Time coordinate(s) for frames relative to the shot timebase (seconds).
@@ -132,7 +132,7 @@ access_conditions:
   - Data use and publication agreement 
   - Data license for any commercial use
 
-maintenance: This dataset is archived and maintained by Princeton Plasma Physics Laboratory. The NSTX device ceased operations in 2011 following its upgrade to NSTX-U. No new data will be added. Access and curation are subject to PPPL data management policies.
+maintenance: This dataset is archived and maintained by Princeton Plasma Physics Laboratory. The NSTX-U device started operations in 2015 and ceased operations in 2016 following a failure. Operations will recommence in 2026 but a new dataset will be created. Access and curation are subject to PPPL data management policies.
 
 ---
 
@@ -140,29 +140,29 @@ maintenance: This dataset is archived and maintained by Princeton Plasma Physics
 
 ## Dataset Description
 
-**Last Updated:** 2026-02-17
+**Last Updated:** 2026-02-26
 
 ### Developed by
 
-NSTX imaging and video diagnostic teams at Princeton Plasma Physics Laboratory (PPPL), with contributions from the broader NSTX research program.
+NSTX-U imaging and video diagnostic teams at Princeton Plasma Physics Laboratory (PPPL), with contributions from the broader NSTX-U research program.
 
 Contact: Stan Kaye (kaye@pppl.gov)
 
 ### Contributed by
 
-NSTX research collaborators and diagnostic-specific teams (camera owners, diagnostic physicists, engineers, and data/controls staff) across the operational lifetime of NSTX.
+NSTX-U research collaborators and diagnostic-specific teams (camera owners, diagnostic physicists, engineers, and data/controls staff) across the operational lifetime of NSTX-U.
 
 ### Dataset Short Description
 
-This dataset contains image and video measurements acquired on the National Spherical Torus Experiment (NSTX) at PPPL during NSTX operations (1999–2011). It includes high-speed camera data and other imaging/video diagnostics used to study plasma behavior, plasma–material interactions, visible emission, and transient events. NSTX supported multiple fast camera systems during operations.
+This dataset contains image and video measurements acquired on the National Spherical Torus Experiment Upgrade (NSTX-U) at PPPL during NSTX-U operations (2015–2016). It includes high-speed camera data and other imaging/video diagnostics used to study plasma behavior, plasma–material interactions, visible emission, and transient events. NSTX-U supported multiple fast camera systems during operations.
 
 ### Timeframe of Data Collection
 
-Data was collected during NSTX experimental operations, beginning with initial plasma operations in 1999 and extending through the NSTX era prior to the NSTX-U upgrade (1999–2011).
+Data was collected during NSTX-U experimental operations, beginning with initial plasma operations in 2015 and extending through the NSTX-U era (2015–2016).
 
 ### Resources Used
 
-- **Facility:** National Spherical Torus Experiment (NSTX)
+- **Facility:** National Spherical Torus Experiment Upgrade (NSTX-U)
 - **Institution:** Princeton Plasma Physics Laboratory
 - **Funding:** U.S. Department of Energy, Office of Science (Fusion Energy Sciences)
 - **Data systems and storage:** PPPL archival storage and imaging data management workflows (format and system vary by camera and time period)
@@ -172,7 +172,7 @@ Data was collected during NSTX experimental operations, beginning with initial p
 
 ### Reuse restrictions placed on the data
 
-Access to NSTX experimental data is subject to PPPL data access policies and DOE public access requirements. Access may require:
+Access to NSTX-U experimental data is subject to PPPL data access policies and DOE public access requirements. Access may require:
 - User registration including DOE Foreign National Access Program
 - Proposal submission 
 - User/Collaboration agreement 
@@ -182,9 +182,9 @@ Access to NSTX experimental data is subject to PPPL data access policies and DOE
 ### Recommended citation
 
 ```txt
-@misc{NSTX_Imaging_1999_2011,
-  title        = "{National Spherical Torus Experiment (NSTX) Image and Video Diagnostic Data (1999-2011)}",
-  author       = "{NSTX Research Team}",
+@misc{NSTX_Imaging_2015_2016,
+  title        = "{National Spherical Torus Experiment Upgrade (NSTX-U) Image and Video Diagnostic Data (2015-2016)}",
+  author       = "{NSTX-U Research Team}",
   howpublished = "Princeton Plasma Physics Laboratory",
   year         = 2026,
   note         = "Access subject to PPPL data policy"
@@ -193,5 +193,5 @@ Access to NSTX experimental data is subject to PPPL data access policies and DOE
 
 ## More information
 
-NSTX ceased operations in 2011 and was subsequently upgraded to NSTX-U. This dataset reflects the full operational lifetime of the original NSTX device. This imaging/video dataset is commonly used alongside NSTX time-series data (e.g., MDSplus signals) for physics interpretation and analysis.
+NSTX-U ceased operations in 2016 due to a failure. This dataset reflects the full operational lifetime of the original NSTX-U device from 2015-2016. A new dataset will be created when the NSTX-U operation is restarted in 2026.
 
